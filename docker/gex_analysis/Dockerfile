@@ -8,5 +8,5 @@ WORKDIR /gex_analysis
 RUN apt-get update && apt-get install -y python3-setuptools libssl-dev libffi-dev build-essential
 
 # Install GEX_ANALYSIS and its dependencies
-COPY ../apps/gex_analysis .
+COPY ../../apps/gex_analysis .
 RUN pip3 install -r requirements.txt
