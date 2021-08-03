@@ -1,0 +1,19 @@
+{
+    "cellranger_matrix": "",
+    "output_dir": "",
+    "system_id": "",
+    "aliquot_id": "",
+
+    "total_counts":1000,
+    "scrublet_score":0.35,
+    "pct_mito":25,
+    "min_genes":500,
+    "min_cells":3,
+    "n_prin_comps":10,
+    "leiden_resolution":1.0,
+    "subsig_pthresh":0.001,
+    "subsig_fctresh":0.5,
+    "subsig_top_n":50,
+    "subsig_sort_by":2,
+    "n_top_genes": 5000
+}

@@ -1,0 +1,12 @@
+Cython==0.29.16
+numpy==1.18.1
+matplotlib==3.3.3
+seaborn==0.11.1
+pandas==1.1.5
+click==7.1.2
+pytest
+jupyter
+anndata==0.7.6
+scanpy==1.8.1
+scrublet==0.2.1
+.
