@@ -3,10 +3,8 @@
 
 REGISTRY=$1
 ORG=$2
+VERSION=$3
 
 echo "\n PREPARING TO TEST \n"
 
-TAG=`git describe --tags $(git rev-list --tags --max-count=1)`
-echo "Getting tag $TAG"
-
-docker exec -t $REGISTRY/$ORG/gex_analysis:$TAG pytest --pyargs gex_analysis
+docker exec -t $REGISTRY/$ORG/gex_analysis:$VERSION pytest --pyargs gex_analysis
