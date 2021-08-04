@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM quay.io/ubuntu:18.04
 
 RUN mkdir /gex_analysis
 
