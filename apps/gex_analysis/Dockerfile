@@ -4,6 +4,8 @@ RUN mkdir /gex_analysis
 
 WORKDIR /gex_analysis
 
+COPY . .
+
 # Installation - Dep
 RUN apt-get update && apt-get install -y python3-setuptools libssl-dev libffi-dev build-essential
 
