@@ -3,7 +3,7 @@ version: 0.2
 phases:
   pre_build:
     commands:
+      # BUILD
       - cd docker/gex_analysis/ && bash build.sh quay.io scrna_apps $GEX_ANALYSIS_VERSION && cd ../../
-  build:
-    commands:
+      # TEST
       - bash docker/gex_analysis/test.sh quay.io scrna_apps $GEX_ANALYSIS_VERSION
