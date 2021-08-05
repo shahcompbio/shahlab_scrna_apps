@@ -7,4 +7,4 @@ VERSION=$3
 
 echo "\n PREPARING TO TEST \n"
 
-docker exec -t $REGISTRY/$ORG/gex_analysis:$VERSION pytest --pyargs gex_analysis
+docker exec $REGISTRY/$ORG/gex_analysis:$VERSION pytest --pyargs gex_analysis
